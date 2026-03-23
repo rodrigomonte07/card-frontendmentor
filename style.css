@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'figtree', sans-serif;
+    padding: 20px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    padding-right: 10px;
+    width: 420px;
+    height: 550px;
+    border-radius: 20px;
+    border-style: solid ;
+    border-width: 1px 8px 8px 1px;
+    align-items: center;  
+}
+
+.imagem{
+img{
+        width: 400px;
+        padding:5px 10px 5px 5px;
+        border-radius: 15px;
+        position: relative;
+}
+}
+
+.aprender{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.text{
+    color: hsl(0, 0%, 42%);
+    font-weight: lighter;
+}
+
+.perfil{
+
+    display: flex;
+    
+
+
+    p{
+        display: flex;
+        padding-left: 15px;
+        
+    };
+
+    img{
+        width: 60px; 
+}
+}
